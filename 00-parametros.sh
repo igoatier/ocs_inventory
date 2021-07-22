@@ -5,7 +5,7 @@
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
 # Data de criação: 17/06/2017
-# Data de atualização: 21/07/2021
+# Data de atualização: 06/12/2020
 # Versão: 0.15
 # Testado e homologado para a versão do Ubuntu Server 16.04.x LTS x64
 # Kernel >= 4.4.x
@@ -55,18 +55,18 @@ APP_PASS="123456"
 # Github: https://github.com/OCSInventory-NG/OCSInventory-ocsreports/releases
 # Versão antiga utilizada no vídeo: 2.4/OCSNG_UNIX_SERVER_2.4.tar.gz
 # Voltado para a versão 2.7 no dia 30/11/2020 - verificar arquivo CHANGELOG
-OCSVERSION="2.9/OCSNG_UNIX_SERVER_2.9.tar.gz"
-OCSTAR="OCSNG_UNIX_SERVER_2.9.tar.gz"
-OCSINSTALL="OCSNG_UNIX_SERVER_2.9"
+OCSVERSION="2.7/OCSNG_UNIX_SERVER_2.7.tar.gz"
+OCSTAR="OCSNG_UNIX_SERVER_2.7.tar.gz"
+OCSINSTALL="OCSNG_UNIX_SERVER_2.7"
 #
 # Variáveis de download do OCS Inventory Agent
 # Site: https://www.ocsinventory-ng.org/en/
 # Github: https://github.com/OCSInventory-NG/UnixAgent/releases
 # Versão antiga utilizada no vídeo: 2.3/Ocsinventory-Unix-Agent-2.3.tar.gz
 # Atualização para a versão 2.6.1 no dia 30/11/2020 - verificar arquivo CHANGELOG
-OCSAGENTVERSION="v2.8.1/Ocsinventory-Unix-Agent-2.8.1.tar.gz"
-OCSAGENTTAR="Ocsinventory-Unix-Agent-2.8.1.tar.gz"
-OCSAGENTINSTALL="Ocsinventory-Unix-Agent-2.8.1"
+OCSAGENTVERSION="v2.6.1/Ocsinventory-Unix-Agent-2.6.1.tar.gz"
+OCSAGENTTAR="Ocsinventory-Unix-Agent-2.6.1.tar.gz"
+OCSAGENTINSTALL="Ocsinventory-Unix-Agent-2.6.1"
 #
 # Variáveis de download do GLPI Help Desk
 # Site: http://glpi-project.org/spip.php?article41
@@ -75,8 +75,8 @@ OCSAGENTINSTALL="Ocsinventory-Unix-Agent-2.8.1"
 # Atualização para a versão 9.4.6 no dia 08/11/2020 - verificar arquivo CHANGELOG
 # OBSERVAÇÃO: a versão 9.4.6 do GLPI é a última com suporte ao PHP 7.0, a partir da versão 9.5.x o suporte é para 
 # versões >= 7.2 do PHP, nesse curso não será mais atualizado as versões do GLPI e do Plugin do OCS Inventory
-GLPIVERSION="9.5.5/glpi-9.5.5.tgz"
-GLPITAR="glpi-9.5.5.tgz"
+GLPIVERSION="9.4.6/glpi-9.4.6.tgz"
+GLPITAR="glpi-9.4.6.tgz"
 GLPIINSTALL="glpi"
 #
 # Variáveis de download do Plugin do OCS Inventory do GLPI
@@ -85,8 +85,8 @@ GLPIINSTALL="glpi"
 # Atualização para a versão 1.6.1 no dia 08/11/2020 - verificar arquivo CHANGELOG
 # OBSERVAÇÃO: a versão 9.4.6 do GLPI é a última com suporte ao PHP 7.0 e suporte a versão 1.6.1 do Plugin do OCS 
 # Inventory, nesse curso não será mais atualizado as versões do GLPI e do Plugin do OCS Inventory
-GLPIOCSVERSION="1.7.3/glpi-ocsinventoryng-1.7.3.tar.gz"
-GLPIOCSTAR="glpi-ocsinventoryng-1.7.3.tar.gz"
+GLPIOCSVERSION="1.6.1/glpi-ocsinventoryng-1.6.1.tar.gz"
+GLPIOCSTAR="glpi-ocsinventoryng-1.6.1.tar.gz"
 GLPIOCSINSTALL="ocsinventoryng"
 #
 # Variáveis de download do FusionInventory Server do GLPI
@@ -95,8 +95,8 @@ GLPIOCSINSTALL="ocsinventoryng"
 # Atualização para a versão 9.4+2.4 no dia 08/11/2020 - verificar arquivo CHANGELOG
 # OBSERVAÇÃO: a versão 9.4.6 do GLPI é a última com suporte ao PHP 7.0 e suporte a versão 9.4+2.4 do Plugin do 
 # FusionInventory, nesse curso não será mais atualizado as versões do GLPI e do Plugin do FusionInventory
-GLPIFISVERSION="glpi9.5%2B2.4/fusioninventory-9.5+3.0.tar.bz2"
-GLPIFISTAR="fusioninventory-9.5+3.0.tar.bz2"
+GLPIFISVERSION="glpi9.4%2B2.4/fusioninventory-9.4+2.4.tar.bz2"
+GLPIFISTAR="fusioninventory-9.4+2.4.tar.bz2"
 GLPIFISINSTALL="fusioninventory"
 #
 # Variáveis de download do FusionInventory Agent
@@ -158,9 +158,9 @@ XMLREMOTE="/var/lib/ocsinventory-agent/https:__ocs.pti.intra/snmp/mibs/remote"
 # Versões antigas utilizada no vídeo: Win10-2.3.1.1, WinXP-2.1.1, Mac-2.3.1, Android-2.3.1, Tools-2.3 e Deploy-2.3
 # Atualização para as versões: Win10-2.8.x, WinXP-2.1.1(Manteve a mesma versão), Mac-2.8.x, Android-2.7.x, Tools-2.8.x, Deploy-2.3
 # (Manteve a mesma versão) e Unix-1.1.x no dia 08/11/2020 - verificar arquivo CHANGELOG
-OCSAGENTWIN10="https://github.com/OCSInventory-NG/WindowsAgent/releases/download/2.9.0.0/OCS-Windows-Agent-2.9.0.0_x64.zip"
+OCSAGENTWIN10="https://github.com/OCSInventory-NG/WindowsAgent/releases/download/2.8.0.0/OCS-Windows-Agent-2.8.0.0_x64.zip"
 OCSAGENTWINXP="https://github.com/OCSInventory-NG/WindowsAgent/releases/download/2.1.1.1/OCSNG-Windows-Agent-2.1.1.zip"
-OCSAGENTMAC="https://github.com/OCSInventory-NG/UnixAgent/releases/download/v2.8.1-MAC/Ocsinventory-Unix-Agent-2.8.1-MAC.tar.gz"
+OCSAGENTMAC="https://github.com/OCSInventory-NG/UnixAgent/releases/download/v2.8.0-MAC/Ocsinventory-Unix-Agent-2.8.0-MAC.tar.gz"
 OCSAGENTANDROID="https://github.com/OCSInventory-NG/AndroidAgent/releases/download/2.7/OCSNG-Android-Agent.2.7.apk"
 OCSAGENTTOOLS="https://github.com/OCSInventory-NG/Packager-for-Windows/releases/download/2.8/OCS-Windows-Packager-2.8.zip"
 OCSAGENTDEPLOY="https://github.com/OCSInventory-NG/Agent-Deployment-Tool/releases/download/2.3/OCSNG-Agent-Deploy-Tool-2.3.zip"
